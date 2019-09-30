@@ -10,7 +10,11 @@ version for comparison with the accurate ripple adder.
 
 ```VHDL
 U_AIF: AIFAdder   port map (AAIF, BAIF, '0', SAIF, CoutAIF);
+--OR
 U_AIF: AIFAdderPL port map (AAIF, BAIF, '0', CLK, RST, SAIF, CoutAIF);
+--WITH
 U_ACC: ACCAdder   port map (AACC, BACC, '0', SACC, CoutACC);
 ```
 
+# License
+All VHDL source codes and testbenches are released under GPU GPL v3.
