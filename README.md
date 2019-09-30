@@ -16,5 +16,9 @@ U_AIF: AIFAdderPL port map (AAIF, BAIF, '0', CLK, RST, SAIF, CoutAIF);
 U_ACC: ACCAdder   port map (AACC, BACC, '0', SACC, CoutACC);
 ```
 
+# Design
+Please check `SAIF_Design.pdf` for detailed discussion and analysis of the
+design.
+
 # License
 All VHDL source codes and testbenches are released under GPU GPL v3.
