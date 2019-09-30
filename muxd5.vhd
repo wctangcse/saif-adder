@@ -27,7 +27,7 @@ end muxd5;
 
 architecture behav of muxd5 is
 begin
-	Y <= A(19 downto 16) when S(4) = '1' else
+    Y <= A(19 downto 16) when S(4) = '1' else
          A(15 downto 12) when S(3) = '1' else
          A(11 downto  8) when S(2) = '1' else
          A( 7 downto  4) when S(1) = '1' else

@@ -30,7 +30,7 @@ architecture behav of ACCAdder is
 begin
     X <= '0' & A;
     Y <= '0' & B;
-	Si <= X + Y + Ci;
+    Si <= X + Y + Ci;
     S <= Si(31 downto 0);
     Co <= Si(4);
 end behav;

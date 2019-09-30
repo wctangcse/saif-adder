@@ -26,7 +26,7 @@ end mux2;
 
 architecture behav of mux2 is
 begin
-	Y <= A when S = '0' else B;
+    Y <= A when S = '0' else B;
 end behav;
 
 
